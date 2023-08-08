@@ -69,7 +69,7 @@ INSTALLED_APPS = [
     # "test_fifteen",
     # "test_sixteen",
 
-# two models are simultaneously.
+# two models are simultaneously moved.
     # "test_seventeen",
     # "test_eighteen",
 

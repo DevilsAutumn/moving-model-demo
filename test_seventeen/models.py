@@ -7,6 +7,10 @@ class Author(models.Model):
     def __str__(self):
         return self.name
 
+class UnrelatedModel(models.Model):
+    old_name = models.CharField(max_length=100)
+    price = models.IntegerField()
+
 class Publisher(models.Model):
     name = models.CharField(max_length=200)
 
@@ -15,6 +19,14 @@ class Publisher(models.Model):
 
     def __str__(self):
         return self.name
+
+# moved from test_eighteen to test_seventeen
+class BookGenre(models.Model):
+    book = models.OneToOneField("test_seventeen.Book", on_delete=models.CASCADE)
+    genre = models.ManyToManyField("test_eighteen.Genre")
+
+    class Meta:
+        db_table = "test_eighteen_bookgenre"
 
 # moved from test_eighteen to test_seventeen
 class Book(models.Model):
