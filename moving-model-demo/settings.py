@@ -112,9 +112,9 @@ WSGI_APPLICATION = 'moving-model-demo.wsgi.application'
 # DATABASES = {
 #     "default": {
 #         "ENGINE": "django.db.backends.mysql",
-#         "NAME": "django",
-#         "USER": "root",
-#         "PASSWORD": "bhuvnesh123",
+#         "NAME": "",
+#         "USER": "",
+#         "PASSWORD": "",
 #         "HOST": "127.0.0.1",
 #         "PORT": "3306",
 #         "OPTIONS": {"init_command": "SET sql_mode='STRICT_TRANS_TABLES'"},
