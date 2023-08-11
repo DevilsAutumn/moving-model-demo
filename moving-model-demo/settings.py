@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     # "test_six",
     # "test_seven",
 
-# moving model with inherited model
+# moving model with inherited abstract model
     # "test_eight",
     # "test_nine",
 
@@ -72,6 +72,14 @@ INSTALLED_APPS = [
 # two models are simultaneously moved.
     # "test_seventeen",
     # "test_eighteen",
+
+# moving model with inherited non abstract model
+    # "test_nineteen",
+    # "test_twenty",
+
+# moving model by just changing app_label
+    # "test_twentyone",
+    # "test_twentytwo",
 
 ]
 
