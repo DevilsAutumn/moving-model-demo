@@ -69,7 +69,7 @@ INSTALLED_APPS = [
     # "test_fifteen",
     # "test_sixteen",
 
-# two models are simultaneously moved.
+# two models are simultaneously moved - one managed and one unmanaged
     # "test_seventeen",
     # "test_eighteen",
 
@@ -81,6 +81,9 @@ INSTALLED_APPS = [
     # "test_twentyone",
     # "test_twentytwo",
 
+# moving two models at once - both managed
+    # "app_a",
+    # "app_b",
 ]
 
 MIDDLEWARE = [

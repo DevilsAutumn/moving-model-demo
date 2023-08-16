@@ -28,7 +28,7 @@ This repo contains various scenarios to test moving model between apps.
      "test_fifteen",
      "test_sixteen",
 
-##### 8. two models are simultaneously moved.
+##### 8. two models are simultaneously moved - one managed and one unmanaged
      "test_seventeen",
      "test_eighteen",
 
@@ -39,3 +39,9 @@ This repo contains various scenarios to test moving model between apps.
 ##### 10. moving model by just changing app_label in Model's meta
      "test_twentyone",
      "test_twentytwo",
+
+#### moving two models at once - both managed
+     "app_a",
+     "app_b",
+
+note: moving multiple models at once is possible only when 
